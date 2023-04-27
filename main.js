@@ -15,6 +15,13 @@ function handleMenu() {
   action.classList.toggle("is-active");
 }
 
+links.forEach(l => {
+  l.addEventListener('click', () => {
+    action.classList.remove("is-active");
+    menu.classList.remove("is-active");
+
+  })
+})  
 // Make Typing effect
 const typing = {
   letterIndex: 0,
