@@ -252,7 +252,7 @@ nav ul li a:hover {
 }
 .box {
   display: flex;
-  /* justify-content: space-between;  */ /* edit comment*/
+  justify-content: space-between; 
   gap: 10px; /* edit (flex cards)  */
   flex-wrap: wrap; /* edit (flex cards)  */
 }
